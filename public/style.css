@@ -25,11 +25,12 @@ input {
   display: block;
   position: relative;
   margin: 10px auto;
-
 }
+
 input#button {
   width: 230px;
 }
+
 .view {
   position:relative;
   margin: auto;
@@ -38,10 +39,4 @@ input#button {
   padding: 20px;
   width: 60%;
   min-width: 400px;
-}
-/****** Logo Div Styling ******/
-
-img {
-  margin: 20px auto 0 auto;
-  display: block;
 }
