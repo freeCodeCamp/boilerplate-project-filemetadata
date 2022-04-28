@@ -2,9 +2,9 @@
   "name": "file_metadata",
   "version": "0.0.1",
   "description": "API project for freeCodeCamp",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
