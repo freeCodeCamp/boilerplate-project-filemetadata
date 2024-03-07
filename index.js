@@ -23,6 +23,9 @@ app.get('/api/fileanalyes', (req, res) => {
   res.send('hello again!')
 })
 
+app.get('/api/sayBye', (req, res) => {
+  res.send('say bye')
+})
 
 
 const port = process.env.PORT || 3000;
