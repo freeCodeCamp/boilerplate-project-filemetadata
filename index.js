@@ -19,6 +19,10 @@ app.post('/api/fileanalyse', upload.single('upfile'), (req, res) => {
   res.status(200).json({file: req.file})
 })
 
+app.get('/api/fileanalyes', (req, res) => {
+  res.send('hello again!')
+})
+
 
 
 const port = process.env.PORT || 3000;
